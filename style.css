@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+nav {
+  display: flex;
+  height: 50px;
+  margin: 20px 125px;
+}
+
+.logo:hover {
+  cursor: pointer;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  margin: 0px 70px;
+}
+
+li {
+  padding: 0px 18px;
+}
+
+li p:hover {
+  cursor: pointer;
+  color: red;
+}
+
+main {
+  display: flex;
+  height: 75vh;
+  align-items: center;
+  margin: 10px 125px;
+  column-gap: 80px;
+}
+
+.button1 {
+  margin-left: 380px;
+  margin-right: 0px;
+  padding: 0px 35px;
+  border-radius: 10px;
+  border-color: #05022b;
+  background-color: #05022b;
+  color: white;
+}
+
+.left-section {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+
+.heading {
+  font-size: 3rem;
+  color: #05022b;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+}
+
+.crush {
+  color: #3b03d6;
+}
+
+.description {
+  color: #067321;
+  font-family: "Tilt Neon", cursive;
+}
+
+.button {
+  margin: 25px 0px;
+}
+
+.button2 {
+  padding: 7px 20px;
+  border-radius: 10px;
+  border-color: #05022b;
+  background-color: #05022b;
+  color: white;
+}
+
+.right-section {
+  margin-left: 131px;
+}
+
+main img {
+  width: 510px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: black;
+  color: aqua;
+}
+
+button {
+  font-family: "Tilt Neon", cursive;
+}
